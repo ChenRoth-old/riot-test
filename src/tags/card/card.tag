@@ -8,7 +8,7 @@
     <button onclick={ remove }>&times;</button>
   </div>
 
-  <style scoped>
+  <style scoped type="scss">
     :scope {
       display: inline-block;
       border: 2px black solid;
@@ -20,10 +20,10 @@
     button {
       background: #fff;
       border: 1px solid #888;
-    }
-    button:active {
-      background: #888;
-      border: 1px solid black;
+      &:active {
+        background: #888;
+        border: 1px solid black;
+      }
     }
   </style>
   <script>

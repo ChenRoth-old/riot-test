@@ -15,7 +15,8 @@ module.exports = {
     preLoaders: [{
       test: /\.tag$/,
       exclude: /node_modules/,
-      loader: 'riotjs-loader'
+      loader: 'riotjs-loader',
+      query: { style: 'sass' }
     }],
     loaders: [{
       test: /\.js/,

@@ -1,6 +1,6 @@
 <app>
   <yield />
-  <style>
+  <style type="scss">
     app {
       display: block;
     }

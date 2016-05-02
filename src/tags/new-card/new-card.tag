@@ -10,7 +10,7 @@
     <input type="submit">
 </div>
   </form>
-  <style scoped>
+  <style scoped type="scss">
     :scope {
       display: inline-block;
       min-height: 200px;
