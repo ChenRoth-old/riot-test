@@ -27,12 +27,6 @@
     }
   </style>
   <script>
-    // this.on('remove', function(item) {
-    //   console.log(`removing card #${item.id}`);
-    //   var index = people.indexOf(item);
-    //   people.splice(index, 1);
-    // });
-
     remove(e) {
       store.dispatch({ type: 'REMOVE_CARD', card: e.item})
       // this.trigger('remove', e.item)
